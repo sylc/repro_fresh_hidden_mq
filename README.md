@@ -1,3 +1,7 @@
+# Repro of https://github.com/lucacasonato/fresh/issues/148
+
+navigate to `/` and `no-island` page and compare behavior
+
 # fresh project
 
 ### Usage
