@@ -4,13 +4,12 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
-    <div class={tw("hidden sm:block")}>
-      hide me on small screen
-      <p>
-        Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh.
-      </p>
+    <div>
+      <div class={tw("hidden sm:block")}>
+        hide me on small screen. Should appear on large screen
+      </div>
       <Counter start={3} />
+      <a class={tw("text-underline")} href="./no-island">see behavior when no island is used</a>
     </div>
   );
 }
