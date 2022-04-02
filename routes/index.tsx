@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div class={tw("hidden sm:block")}>
-        hide me on small screen. Should appear on large screen
+        Should appear on screen larger than 640 px, but doesn't...
       </div>
       <Counter start={3} />
       <a class={tw("text-underline")} href="./no-island">see behavior when no island is used</a>

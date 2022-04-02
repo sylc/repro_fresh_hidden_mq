@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <div class={tw("hidden sm:block")}>
-        hide me on small screen. Should appear on large screen
+        Should appear on screen larger than 640 px
       </div>
     </div>
   );
