@@ -1,5 +1,6 @@
 /** @jsx h */
-import { h, tw } from "../client_deps.ts";
+import { h } from "preact";
+import { tw } from "../utils/twind.ts";
 
 export default function BasicComp() {
   return (

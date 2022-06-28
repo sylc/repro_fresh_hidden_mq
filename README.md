@@ -1,7 +1,3 @@
-# Repro of https://github.com/lucacasonato/fresh/issues/148
-
-navigate to `/` and `no-island` page and compare behavior
-
 # fresh project
 
 ### Usage
@@ -9,12 +5,7 @@ navigate to `/` and `no-island` page and compare behavior
 Start the project:
 
 ```
-deno run -A --watch main.ts
+deno task start
 ```
 
-After adding, removing, or moving a page in the `routes` or directory, or
-adding, removing, or moving an island in the `islands` directory, run:
-
-```
-fresh manifest
-```
+This will watch the project directory and restart as necessary.

@@ -1,5 +1,6 @@
 /** @jsx h */
-import { h, tw } from "../client_deps.ts";
+import { h } from "preact";
+import { tw } from "@twind";
 import BasicComp from "../component/BasicComp.tsx";
 
 export default function Home() {
